@@ -1,33 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC&display=swap');
+
 .App {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgba(15,15,15,1);
+  color: white;
+  font-family: 'Alegreya SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.Splash {
+  min-height: 87vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.SplashRight {
+  text-align: justify;
+}
+
+.SocialLink {
+  display: inline-block;
+  margin: .8em;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.SocialLink:hover .SocialText {
+  visibility: visible;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.SocialText {
+  visibility: hidden;
+  margin-top: -1em;
+}
+
+#LinkedIn {
+  margin-right: 1em;
+}
+
+.SplashIcon {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.SplashIcon:hover {
+  color: limegreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Scroller {
+  margin: 0 auto;
+  animation-name: scroller;
+  animation-duration: 2s;
+}
+
+@keyframes scroller {
+  from { color: white; height: 1em; }
+  to { color: limegreen; height: 2em; }
+}
+
+hr {
+  width: 70vw;
+  margin: 1em auto;
+}
+
+.About {
+  min-height: 87vh;
+}
+
+.PageLink {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.PageLink:hover {
+  color: limegreen;
+}
+
+.Tech {
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.TechIcon {
+  margin: 1em;
+}
+
+.Projects {
+  min-height: 87vh;
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+#MinitImg {
+  width: 15vw;
+}
+
+.Carousel {
+  height: 60vh;
+}
+
+.AppLink {
+  margin: 1em;
+  padding: .5em;
+  background-color: white;
+  color: black;
+}
+
+.Contact {
+  min-height: 87vh;
+}
+
+input, textarea {
+  margin: .5em auto;
+  width: 40vw;
+  font-size: 1.5em;
+}
+
+textarea {
+  height: 30vh;
+}
+
+#FormSubmit {
+  width: 10vw;
+  font-size: 1.5em;
+  border-radius: .2em;
+  font-weight: bold;
+}
+
+#FormSubmit:hover {
+  background-color: limegreen;
+  border: 1px solid limegreen;
+  color: black;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  margin: 0 .5em;
+}
+
+.Nav:hover {
+  text-decoration: underline;
 }
