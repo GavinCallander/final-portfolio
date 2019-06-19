@@ -69,19 +69,19 @@ export default class Portfolio extends Component {
                         <h2>Full Stack Web Development</h2>
                         <div className = 'SplashSocial'>
                             <div className = 'SocialLink'>
-                                <a><FontAwesomeIcon className = 'SplashIcon' icon = { Brands.faGithub } size = '2x' /></a>
+                                <a href = 'https://github.com/GavinCallander'><FontAwesomeIcon className = 'SplashIcon' icon = { Brands.faGithub } size = '2x' /></a>
                                 <div className = 'SocialText'>
                                     <h6>Github</h6>
                                 </div>
                             </div>
                             <div className = 'SocialLink'>
-                                <a><FontAwesomeIcon className = 'SplashIcon' icon = { Brands.faLinkedin } size = '2x' /></a>
+                                <a href = 'https://www.linkedin.com/in/gavin-callander/'><FontAwesomeIcon className = 'SplashIcon' icon = { Brands.faLinkedin } size = '2x' /></a>
                                 <div className = 'SocialText'>
                                     <h6 id = '#LinkedIn'>LinkedIn</h6>
                                 </div>
                             </div>
                             <div className = 'SocialLink'>
-                                <a><FontAwesomeIcon className = 'SplashIcon' icon = { Brands.faTwitter } size = '2x' /></a>
+                                <a href = 'https://twitter.com/GavinCallander'><FontAwesomeIcon className = 'SplashIcon' icon = { Brands.faTwitter } size = '2x' /></a>
                                 <div className = 'SocialText'>
                                     <h6>Twitter</h6>
                                 </div>
