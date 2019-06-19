@@ -162,6 +162,13 @@ textarea {
   text-decoration: underline;
 }
 
+.Resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .ResumePdf {
   margin: 0 auto;
 }
