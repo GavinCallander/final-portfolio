@@ -3,6 +3,7 @@ import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 
@@ -32,6 +33,7 @@ export default class Resume extends Component {
                     onLoadSuccess = { this.onDocumentLoadSuccess.bind(this) }>
                 <Page pageNumber = { 1 } renderMode = 'svg' />
                 </Document>
+                <Footer />
             </div>
         )
     }
