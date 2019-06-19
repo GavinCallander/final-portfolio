@@ -11,6 +11,7 @@ import * as Icon from '@fortawesome/free-solid-svg-icons';
 import minit from '../img/Minit.png';
 import props from '../img/Props.png';
 import readit from '../img/ReadIt.png';
+import fcg from '../img/fcg.png';
 
 export default class Portfolio extends Component {
 
@@ -148,6 +149,14 @@ export default class Portfolio extends Component {
                                 <img className = 'ProjectImg' src = { readit } />
                                 <h3>ReadIt is an application built off the News API.</h3>
                                 <h3>Putting users into contact with news outlets from across the world, keeping them up to date with the latest headlines and allowing them to save the stories they care about for later reading.</h3>
+                                <a className = 'AppLink'>Check the code</a>
+                                <a className = 'AppLink'>Check the app</a>
+                            </div>
+                            <div className = 'Project fade' id = 'Fcg'>
+                                <h2>Fantasy Card Game</h2>
+                                <img className = 'ProjectImg' src = { fcg } />
+                                <h3>Fantasy Card Game was developed as a game similar to Hearthstone or Magic the Gathering.</h3>
+                                <h3>It was created as a proof of concept and is currently being redeveloped in React.</h3>
                                 <a className = 'AppLink'>Check the code</a>
                                 <a className = 'AppLink'>Check the app</a>
                             </div>
