@@ -21,9 +21,16 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   font-size: 1.5em;
+}
+
+.Me {
+  height: 60vh;
+  margin: 4em;
+  border: .1em solid white;
+  border-radius: .2em;
 }
 
 .SplashRight {
@@ -113,8 +120,14 @@ hr {
 .AppLink {
   margin: 1em;
   padding: .5em;
+  text-decoration: none;
   background-color: white;
   color: black;
+  border-radius: .3em;
+}
+
+.AppLink:hover {
+  background-color: limegreen;
 }
 
 .Contact {
@@ -141,6 +154,7 @@ textarea {
 #FormSubmit:hover {
   background-color: limegreen;
   border: 1px solid limegreen;
+  cursor: pointer;
   color: black;
 }
 

@@ -8,10 +8,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Brands from '@fortawesome/free-brands-svg-icons';
 import * as Icon from '@fortawesome/free-solid-svg-icons';
 
+import me from '../img/me.jpg';
 import minit from '../img/Minit.png';
 import props from '../img/Props.png';
 import readit from '../img/ReadIt.png';
-import fcg from '../img/fcg.png';
+import fcg from '../img/FCG.png';
 
 export default class Portfolio extends Component {
 
@@ -63,7 +64,7 @@ export default class Portfolio extends Component {
                 <hr />
                 <div className = 'Splash'>
                     <div className = 'SplashLeft'>
-                        
+                        <img className = 'Me' src = { me } />
                     </div>
                     <div className = 'SplashRight'>
                         <h1>Gavin Callander</h1>
@@ -133,32 +134,32 @@ export default class Portfolio extends Component {
                                 <img className = 'ProjectImg' id = 'MinitImg' src = { minit } />
                                 <h3>Minit is a mental health app with an emphasis on both anonymity and community.</h3>
                                 <h3>Users can connect with others in a similar position and can make use of the breathing exercise and distraction game included in the app. </h3>
-                                <a className = 'AppLink'>Check the code</a>
-                                <a className = 'AppLink'>Check the app</a>
+                                <a className = 'AppLink' href = 'https://github.com/GavinCallander/minit'>Check the code</a>
+                                <a className = 'AppLink' href = 'https://fathomless-temple-99588.herokuapp.com/'>Check the app</a>
                             </div>
                             <div className = 'Project fade' id = 'Props'>
                                 <h2>Props</h2>
                                 <img className = 'ProjectImg' src = { props } />
                                 <h3>Props was developed collaboratively with another to engineers as an employee engagement platform.</h3>
                                 <h3>With cross-team interaction a challenge for many organizations, Props offers employees a chance to publically say thanks (or give Props) to those they interact with.</h3>
-                                <a className = 'AppLink'>Check the code</a>
-                                <a className = 'AppLink'>Check the app</a>
+                                <a className = 'AppLink' href = 'https://github.com/GavinCallander/project3'>Check the code</a>
+                                <a className = 'AppLink' href = 'https://intense-basin-36132.herokuapp.com'>Check the app</a>
                             </div>
                             <div className = 'Project fade' id = 'ReadIt'>
                                 <h2>ReadIt</h2>
                                 <img className = 'ProjectImg' src = { readit } />
                                 <h3>ReadIt is an application built off the News API.</h3>
                                 <h3>Putting users into contact with news outlets from across the world, keeping them up to date with the latest headlines and allowing them to save the stories they care about for later reading.</h3>
-                                <a className = 'AppLink'>Check the code</a>
-                                <a className = 'AppLink'>Check the app</a>
+                                <a className = 'AppLink' href = 'https://github.com/GavinCallander/readit'>Check the code</a>
+                                <a className = 'AppLink' href = 'https://pure-plains-51572.herokuapp.com/'>Check the app</a>
                             </div>
                             <div className = 'Project fade' id = 'Fcg'>
                                 <h2>Fantasy Card Game</h2>
                                 <img className = 'ProjectImg' src = { fcg } />
                                 <h3>Fantasy Card Game was developed as a game similar to Hearthstone or Magic the Gathering.</h3>
                                 <h3>It was created as a proof of concept and is currently being redeveloped in React.</h3>
-                                <a className = 'AppLink'>Check the code</a>
-                                <a className = 'AppLink'>Check the app</a>
+                                <a className = 'AppLink' href = 'https://github.com/GavinCallander/the-fantasy-card-gamehttps://github.com/GavinCallander/the-fantasy-card-game'>Check the code</a>
+                                <a className = 'AppLink' href = 'https://gavincallander.github.io/unit-1-project-final/' >Check the app</a>
                             </div>
                         </Carousel>
                     </div>
