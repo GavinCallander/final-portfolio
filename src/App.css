@@ -161,3 +161,7 @@ textarea {
 .Nav:hover {
   text-decoration: underline;
 }
+
+.ResumePdf {
+  margin: 0 auto;
+}
