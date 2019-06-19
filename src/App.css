@@ -145,6 +145,7 @@ textarea {
 }
 
 .Header {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -163,9 +164,8 @@ textarea {
 }
 
 .Resume {
-  height: 110vh;
+  height: 150vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
