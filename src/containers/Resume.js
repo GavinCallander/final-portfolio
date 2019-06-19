@@ -27,9 +27,9 @@ export default class Resume extends Component {
             <div className = 'Resume'>
                 <Header />
                 <Document
-                id = 'ResumePdf'
+                className = 'ResumePdf'
                 file = { resume }
-                onLoadSuccess = { this.onDocumentLoadSuccess.bind(this) }>
+                    onLoadSuccess = { this.onDocumentLoadSuccess.bind(this) }>
                 <Page pageNumber = { 1 } renderMode = 'svg' />
                 </Document>
             </div>
