@@ -33,6 +33,7 @@ export default class Resume extends Component {
                     onLoadSuccess = { this.onDocumentLoadSuccess.bind(this) }>
                 <Page pageNumber = { 1 } renderMode = 'svg' />
                 </Document>
+                <hr />
                 <Footer />
             </div>
         )
