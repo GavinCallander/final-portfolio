@@ -103,9 +103,9 @@ export default class Portfolio extends Component {
                         </div>
                     </div>
                 </div>
-                <FontAwesomeIcon className = 'Scroller' icon = { Icon.faChevronDown } size = '3x' />
+                <a className = 'SectionLink' href = '#about'><FontAwesomeIcon className = 'Scroller' icon = { Icon.faChevronCircleDown } size = '3x' /></a>
                 <hr />
-                <div className = 'About'>
+                <a name = 'about'></a><div className = 'About'>
                     <h1>About</h1>
                     <h2>A Full Stack Web Developer with a focus on front end</h2>
                     <h3>In-depth experience with a multitude of technologies, with specific focus on JavaScript and React</h3>
@@ -123,9 +123,9 @@ export default class Portfolio extends Component {
                         <FontAwesomeIcon className = 'TechIcon' icon = { Brands.faBootstrap } size = '4x' />
                     </div>
                 </div>
-                <FontAwesomeIcon className = 'Scroller' icon = { Icon.faChevronDown } size = '3x' />
+                <a href = '#projects'><FontAwesomeIcon className = 'Scroller' icon = { Icon.faChevronCircleDown } size = '3x' /></a>
                 <hr />
-                <div className = 'Projects'>
+                <a name = 'projects'></a><div className = 'Projects'>
                     <h1>Projects</h1>
                     <div className = 'Projects'>
                         <Carousel showThumbs = { false } showStatus = { false } className = 'Carousel'>
@@ -164,9 +164,9 @@ export default class Portfolio extends Component {
                         </Carousel>
                     </div>
                 </div>
-                <FontAwesomeIcon className = 'Scroller' icon = { Icon.faChevronDown } size = '3x' />
+                <a href = '#contact'><FontAwesomeIcon className = 'Scroller' icon = { Icon.faChevronCircleDown } size = '3x' /></a>
                 <hr />
-                <div className = 'Contact'>
+                <a name = 'contact'></a><div className = 'Contact'>
                     <h1>Contact</h1>
                     <form 
                     action="https://formcarry.com/s/YsV3Tfn1ahT" method="POST" accept-charset="UTF-8" 

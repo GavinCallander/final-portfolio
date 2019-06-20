@@ -13,6 +13,8 @@ export default class Blog extends Component {
         return (
             <div className = 'Blog'>
                 <Header />
+                <div className = 'BlogMain'>
+                </div>
                 <Footer />
             </div>
         )
